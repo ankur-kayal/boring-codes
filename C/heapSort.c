@@ -102,7 +102,7 @@ int *randomGenerator(int N) {
     return arr;
 }
 
-// This function uses user input yo populate the given array dynamically
+// This function uses user input to populate the given array dynamically
 int *input(int N) {
     int i;
     int *arr = (int *)calloc(N,sizeof(int));
